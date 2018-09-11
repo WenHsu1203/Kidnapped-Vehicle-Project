@@ -1,6 +1,6 @@
 # Introduction
-My robot has been kidnapped and transported to a new location. Luckily it has `a map` of this location, a (noisy) `GPS estimate of its initial location`, and lots of `noisy sensor` and control data.
-To Save this robot, I implemented a `2 dimensional particle filter` in C++. This filter is given a map and some initial localization information (analogous to what a GPS would provide). At each time step your filter will also get observation and control data.
+_My robot has been kidnapped and transported to a new location. Luckily it has `a map` of this location, a (noisy) `GPS estimate of its initial location`, and lots of `noisy sensor` and control data.
+To Save this robot, I implemented a `2 dimensional particle filter` in C++. This filter is given a map and some initial localization information (analogous to what a GPS would provide). At each time step your filter will also get observation and control data._
 
 __What I have: Initial Localization from GPS, Observation, Velocity and Yaw Rate Data with Noise__ 
 * Observation data are the measured distance of landmarks
@@ -18,6 +18,7 @@ __What my GOALs are: Implementing the Particle Filter to Localize the Robot__
 In the simulator you can see the path that the robot drives along with all of its `landmark measurements(⨷) `represented by `green lines`. The estimation of the position from particle is the `blue circle` around the robot
 
 __*Demo Video☟*__
+
 [![Video](http://img.youtube.com/vi/0rbb8DnsY6g/0.jpg)](http://www.youtube.com/watch?v=0rbb8DnsY6g "Particle Filter")
 
 # Download
